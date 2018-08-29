@@ -54,7 +54,7 @@ public class Convert {
         }   while(!success);
 
         return response.getRates().get(to) /
-                (response.getRates().get(from) * amount);
+                response.getRates().get(from) * amount;
 
     }
 
